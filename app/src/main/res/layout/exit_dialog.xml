@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/exit_dialog_back"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:textColor="#033B67"
+            android:text="@string/exit_question"
+            android:id="@+id/tvExit" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/rounded_corner_button_main"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="@android:string/cancel"
+                android:elevation="4dp"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnExit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/rounded_corner_button_main"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="@string/exit"
+                android:elevation="4dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

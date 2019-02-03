@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobiversite</string>
+    <string name="prompt_email">Kullanıcı adı</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="action_sign_in">Giriş/Kayıt</string>
+    <string name="action_sign_in_short">Giriş</string>
+    <string name="error_invalid_password">Şifre çok kısa</string>
+    <string name="error_incorrect_password">Şifre yanlış</string>
+    <string name="error_field_required">Zorunlu alan</string>
+    <string name="error_invalid_email">Kulanıcı ismi doğru değil</string>
+    <string name="title_activity_main">AnaActivite</string>
+    <string name="title_home">Ana Ekran</string>
+    <string name="exit_question">Çıkmak istediğine eminmisin?</string>
+    <string name="title_notifications">Item 2</string>
+    <string name="title_dashboard">Item 1</string>
+    <string name="exit">Çıkış</string>
+    <string name="remember_me">Beni hatırla</string>
+    <string name="meals">YEMEKLER</string>
+</resources>
